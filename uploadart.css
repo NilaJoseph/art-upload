@@ -3,9 +3,11 @@ body {
     margin: 0;
     padding: 0;
   /*  background-image: url('cargif.gif');  Change 'background.jpg' to your desired background image */
-  background-color: #f4b994;
+  /*background-color: #f4b994;*/
     background-size: cover;
     background-position: center;
+    /*background-image: url(terracotta.jpg); */
+    background-color: rgb(231, 150, 123);
 }
 
 .container {
@@ -15,15 +17,16 @@ body {
 }
 
 header {
-    background-color: #4d2d1aa1;
+   /* background-color: #4d2d1aa1;*/
     color: #fff;
-    padding: 20px 0;
+    padding: 30px 0;
     text-align: center;
+    background-image: url('cargif.gif');
 }
 
 header h1 {
     margin: 0;
-    font-size: 36px;
+    font-size: 50px;
 }
 
 main {
@@ -37,7 +40,7 @@ section {
 h2 {
     margin-top: 0;
     font-size: 25px;
-    color: #333;
+    color: #512c17;
     text-align: center;
 }
 
@@ -84,7 +87,7 @@ ul {
 
 footer {
     background-color: rgba(255, 224, 198, 0.957);
-    padding: 10px 0;
+    padding: 1px 0;
     color: #333;
     text-align: center;
 }
