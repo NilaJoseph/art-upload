@@ -1,0 +1,90 @@
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+  /*  background-image: url('cargif.gif');  Change 'background.jpg' to your desired background image */
+  background-color: #f4b994;
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header {
+    background-color: #4d2d1aa1;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+main {
+    padding: 60px 0;
+}
+
+section {
+    margin-bottom: 50px;
+}
+
+h2 {
+    margin-top: 0;
+    font-size: 25px;
+    color: #333;
+    text-align: center;
+}
+
+#upload-section {
+    text-align: center;
+}
+
+input[type="file"] {
+    margin: 0cm auto;
+    display: block;
+
+
+    
+}
+
+#fileList {
+    list-style-type: none;
+    padding: 0;
+    text-align: center; /* Center-align the content within the list */
+}
+
+#fileList li {
+    display: inline-block; /* Display list items inline */
+    margin: 10 50px; /* Adjust margin as needed */
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4d2d1aa1;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    
+}
+
+button:hover {
+    background-color: #2a0f04;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer {
+    background-color: rgba(255, 224, 198, 0.957);
+    padding: 10px 0;
+    color: #333;
+    text-align: center;
+}
